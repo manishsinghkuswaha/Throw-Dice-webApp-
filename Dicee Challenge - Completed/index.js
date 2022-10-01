@@ -5,7 +5,7 @@ var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
 var randomImageSource = "images/" + randomDiceImage; //images/dice1.png - images/dice6.png
 
-var image1 = document.querySelectorAll("img")[0];
+var image1 = document.querySelectorAll("img")[0];// to select 1st index from the array use 0.
 
 image1.setAttribute("src", randomImageSource);
 
